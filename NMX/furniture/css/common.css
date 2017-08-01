@@ -1,0 +1,59 @@
+body { margin: 1em auto; width: 100%; }
+
+header { border-bottom: solid 2em #861289; padding-bottom: 2em; }
+header i.logo { display: block; width: 21em; height: 7em; background-image: url(./../images/lgo-condominio_em_rede.png); background-repeat: no-repeat; }
+header nav { font: 1.7em verdana, sans-serif; }
+header nav .glyphicon { font-size: 1.2rem; }
+header nav a { color: #861289; text-decoration: none; }
+header nav a:hover { text-decoration: none; }
+header nav > ul { position: absolute; top: 2rem; }
+header nav ul { padding: 0; list-style: none; }
+header nav ul li { display: block; float: left; position: relative; margin-left: 2.5rem; padding-bottom: 0.3rem; }
+header nav ul li:first-child { margin-left: 0; }
+header nav > ul > li:hover > a { color: #97d819; }
+header nav ul li.underline { border-bottom: solid 2px #861289; }
+header nav ul li.underline:hover { border-bottom-color: #97d819; }
+
+header nav ul div { display: none; position: relative; top: 2rem; }
+header nav ul li:hover div { display: block; }
+header nav ul div .glyphicon { display: block; float: right; position: relative; top: -0.9rem; color: #96d718; }
+header nav ul div ul { font-size: 1.1rem; padding: 1.2rem; border-top: solid 5px #96d718; box-shadow: 0 0 1rem #999999; width: 100%; background: #ffffff; }
+header nav ul li li { display: block; float: none; clear: both; position: relative; margin: 0; padding: 0.8rem 0; border-bottom: solid 1px #959595; }
+header nav ul li li:last-child { border-bottom: none; }
+header nav ul li li a { color: #959595; }
+
+#rotate { height: 48rem; background: linear-gradient(90deg, #0d9a0f, #96d718) }
+#rotate p { position: relative; top: 18rem; width: 36rem; margin-bottom: 1.5rem; font-size: 3.2rem; font-weight: bold; color: #ffffff; }
+#rotate a.btn { position: relative; top: 18rem; width: 21rem; }
+#rotate img { position: relative; float: right; right: 2rem; }
+
+.mosaic { display: block; float: left; width: 50%; position: relative; }
+.mosaic .mosaicContent { width: 41rem; }
+.mosaic h2 { margin: 0 0 4rem; font-size: 3.2rem; line-height: 3rem; font-weight: bold; color: #ffffff; }
+.mosaic p { margin-bottom: 3rem; font-size: 1.8rem; line-height: 2.4rem; color: #ffffff; }
+.mosaic figcaption { position: relative; top: 17rem; font-size: 2.4rem; font-weight: bold; color: #ffffff; }
+.mosaic img { position: relative; float: right; }
+
+.mosaic:nth-child(1n+0) .mosaicContent { position: absolute; right: 9.5rem; }
+.mosaic:nth-child(2n+0) .mosaicContent { position: absolute; left: 9.5rem; }
+.mosaic.green { background-color: #96d718; height: 46rem; padding-top: 7.5rem; }
+.mosaic.blue { background-color: #00a99d; height: 46rem; }
+.mosaic.cyan { background-color: #54bfb2; height: 56rem; }
+.mosaic.orange { background-color: #f7931e; height: 56rem; padding-top: 7.5rem;}
+
+.mosaic.blue figcaption { width: 23rem; }
+.mosaic.blue img { top: 3rem; }
+.mosaic.cyan figcaption { width: 28rem; }
+.mosaic.cyan img { top: -3rem; }
+.mosaic.orange h2 { margin-bottom: 1.8rem; }
+
+#features { clear: both; }
+#features h2 { margin-top: 12rem; font-size: 3.2rem; font-weight: bold; color: #959595; }
+#features h3 { margin: 14.5rem 0 3rem; font-size: 2.1rem; color: #636363; }
+#features hr { clear: both; visibility: hidden; margin-bottom: 6rem; }
+#features p { font-size: 1.5rem; color: #636363; }
+
+#features h3.orange { color: #f7921e; }
+
+a.btn { display: block; border-radius: 10px; background-color: rgba(255, 255, 255, 0.27); font-size: 1.5rem; color: #ffffff; }
+a.btn:hover { color: #ffffff; text-decoration: none }
