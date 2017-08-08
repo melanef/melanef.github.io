@@ -1,4 +1,4 @@
-body { margin: 1em auto; width: 100%; }
+body { margin: 1em auto 0; width: 100%; font-family: 'PT Sans', sans-serif; }
 
 header { border-bottom: solid 2em #861289; padding-bottom: 2em; }
 header i.logo { display: block; width: 21em; height: 7em; background-image: url(./../images/lgo-condominio_em_rede.png); background-repeat: no-repeat; }
@@ -50,10 +50,43 @@ header nav ul li li a { color: #959595; }
 #features { clear: both; }
 #features h2 { margin-top: 12rem; font-size: 3.2rem; font-weight: bold; color: #959595; }
 #features h3 { margin: 14.5rem 0 3rem; font-size: 2.1rem; color: #636363; }
+#features .text { float: left; position: relative; top: 5rem; left: 8rem; width: 30%; }
 #features hr { clear: both; visibility: hidden; margin-bottom: 6rem; }
 #features p { font-size: 1.5rem; color: #636363; }
 
 #features h3.orange { color: #f7921e; }
+
+.list { margin-top: 10.5rem; width: 50%; float: left; position: relative; }
+.list .header { margin: 0; padding: 3rem 0; height: 7rem; }
+.list .header h2 { margin: 0; width: 41rem; font-size: 2.1rem; font-weight: bold; color: #ffffff; }
+.list ul { margin: 0; padding: 5.5rem 0 0; height: 59rem; font-size: 2.3rem; color: #ffffff; list-style: none; }
+.list .content { height: 64.5rem; }
+.list ul li { width: 41rem; margin-bottom: 3rem; }
+
+.list.purple .header { background-color: #851288; }
+.list.purple .content { background-color: #b567b7; }
+.list.purple .header h2 { position: absolute; right: 9.5rem; }
+.list.purple .content ul { position: absolute; right: 9.5rem; }
+.list.acqua .header { background-color: #00a99d; }
+.list.acqua .content { background-color: #50b4a8; }
+.list.acqua .header h2 { position: absolute; left: 9.5rem; }
+.list.acqua .content ul { position: absolute; left: 9.5rem; }
+
+#demo { clear: both; text-align: center; padding: 12rem 0; }
+#demo p { margin-top: 4.5rem; font-size: 2.8rem; font-weight: bold; color: #861289; }
+#demo .button { margin: 2rem auto 0; width: 18rem; border: solid 2px #a1a1a1; border-radius: 1rem; background-color: #ebebeb; padding: 1rem 1.5rem; font-size: 1.8rem; }
+#demo .button a { color: #444444; text-decoration: none; }
+#demo .button a:hover { color: #444444; text-decoration: none; }
+
+footer { background-color: #861289; padding: 6rem 0; }
+footer address { font-size: 1.5rem; color: #b567b7; }
+footer address a { font-size: 1.6rem; color: #ffffff; text-decoration: none; }
+footer address a:hover { color: #ffffff; text-decoration: none; }
+footer i.logo { display: block; width: 21em; height: 7em; background-image: url(./../images/lgo-condominio_em_rede-branco.png); background-repeat: no-repeat; }
+footer ul { padding: 0; list-style: none; }
+footer ul li i { display: block; float: left; width: 36px; height: 36px; }
+i.facebook { background-image: url(./../images/lgo-facebook-branco.png); background-repeat: no-repeat; }
+i.skype { background-image: url(./../images/lgo-skype-branco.png); background-repeat: no-repeat; }
 
 a.btn { display: block; border-radius: 10px; background-color: rgba(255, 255, 255, 0.27); font-size: 1.5rem; color: #ffffff; }
 a.btn:hover { color: #ffffff; text-decoration: none }

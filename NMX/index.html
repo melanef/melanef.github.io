@@ -8,6 +8,7 @@
 	<meta name="description" content="Condomínio em rede">
 	<meta name="keywords" content="condomínio, automatização, gestão de condomínios">
 	<link rel="stylesheet" href="./furniture/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"> 
 	<link rel="stylesheet" href="./furniture/css/common.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
 
 	<div class="mosaic green">
 		<div class="mosaicContent">
-			<h2>Sobre</h2>
+			<a name="sobre"><h2>Sobre</h2></a>
 			<p>O Condomínio em rede é um sistema digital criado para facilita o dia a dia de um condomínio, seja <strong>para o síndico</strong>, seja <strong>para o morador</strong>.</p>
 			<p>Agende o salão de festas, espaço gourmet ou outros espaços do seu condomínio diretamente do seu celular, tablet ou computador. Economize papel com comunicados online, tenha controle dos convidados autorizados na portaria e muito mais.</p>
 		</div>
@@ -79,43 +80,58 @@
 	</div>
 	<div id="features">
 		<div class="container">
-			<h2>Funcionalidades</h2>
+			<a name="funcionalidades"><h2>Funcionalidades</h2></a>
 			<img src="./furniture/images/ilst-funcionalidades-interface.png" alt="" align="right">
 			<h3>Interface do sistema</h3>
 			<p>Software intuitivo e responsivo adptável para computador desktop, celular e tablet, com login individual e personalizado.</p>
 			<hr>
 			<img src="./furniture/images/ilst-funcionalidades-manutencoes.png" alt="" align="left">
-			<h3 class="orange">Gestão de manutenção</h3>
-			<p>Gerencia e controla todas as manutenções prediais solicitadas pelo usuário.</p>
+			<div class="text">
+				<h3 class="orange">Gestão de manutenção</h3>
+				<p>Gerencia e controla todas as manutenções prediais solicitadas pelo usuário.</p>
+			</div>
 			<hr>
 			<img src="./furniture/images/ilst-funcionalidades-graficos.png" alt="" align="right">
-			<h3 class="orange">Gráficos detalhados e atualizados</h3>
-			<p>Fluxo de gás,água,gastos e pagamentos em tempo real</p>
+			<div class="text">
+				<h3 class="orange">Gráficos detalhados e atualizados</h3>
+				<p>Fluxo de gás,água,gastos e pagamentos em tempo real</p>
+			</div>
 			<hr>
 			<img src="./furniture/images/ilst-funcionalidades-anuncios.png" alt="" align="left">
-			<h3 class="orange">Classificados</h3>
-			<p>Anúncios internos de venda troca ou serviços.</p>
+			<div class="text">
+				<h3 class="orange">Classificados</h3>
+				<p>Anúncios internos de venda troca ou serviços.</p>
+			</div>
 			<hr>
 			<img src="./furniture/images/ilst-funcionalidades-visitantes.png" alt="" align="right">
-			<h3 class="orange">Controle de visitantes</h3>
-			<p>Controle completo da portaria, com pré-autorizção de entrata de visitantes e registro de fotos.</p>
+			<div class="text">
+				<h3 class="orange">Controle de visitantes</h3>
+				<p>Controle completo da portaria, com pré-autorizção de entrata de visitantes e registro de fotos.</p>
+			</div>
 		</div>
 	</div>
 
 	<div class="list purple">
-		<h2>Para o síndico</h2>
-		<ul>
-			<li>Acompanhamento de pagamentos, acordos e inadimplencia</li>
-			<li>Gestão total da manutenção, pagamentos e despesas com fornecedores</li>
-			<li>Controle de consumo geral do prédio</li>
-			<li>Agenda de reservas automatizada</li>
-			<li>Cadrastro completo de moradores e inquilinos</li>
-			<li>Conexão direta entro moradores e direção via foruns</li>
-		</ul>
+		<div class="header">
+			<a name="funcionalidades-sindico"><h2>Para o síndico</h2></a>
+		</div>
+		<div class="content">
+			<ul>
+				<li>Acompanhamento de pagamentos, acordos e inadimplencia</li>
+				<li>Gestão total da manutenção, pagamentos e despesas com fornecedores</li>
+				<li>Controle de consumo geral do prédio</li>
+				<li>Agenda de reservas automatizada</li>
+				<li>Cadrastro completo de moradores e inquilinos</li>
+				<li>Conexão direta entro moradores e direção via foruns</li>
+			</ul>
+		</div>
 	</div>
 	
 	<div class="list acqua">
-		<h2>Para o condômino</h2>
+		<div class="header">
+			<a name="funcionalidades-condomino"><h2>Para o condômino</h2></a>
+		</div>
+		<div class="content">
 			<ul>
 				<li>Login individual e fácil</li>
 				<li>Controle e visualização simples de pagamentos</li>
@@ -125,30 +141,48 @@
 				<li>Abertura de ocorrências, manutenções e solicitações</li>
 				<li>Registro e pré-autorização de visitantes</li>
 			</ul>
+		</div>
 	</div>
 
-	<div class="demo">
-		<img src="">
-		<p>Solicite uma demonstração :)</p>
-		<a href="">Solicitar</a>
+	<div id="demo">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<a name="contato"><img src="furniture/images/ilst-contato.png"></a>
+					<p>
+						Entre em contato<br>e solicite uma demonstração :)
+					</p>
+					<div class="button"><a href="">entre em contato</a></div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<footer>
-		<div class="logo"></div>
-		<address>
-			<a href="mailto:contato@condominioemrede.com.br">contato@condominioemrede.com.br</a><br>
-			Fone: 2533.8963 - 99553.6902<br>
-			<br>
-			Av. Irerê, 2023 - Planalto Paulista<br>
-			São Paulo/SP
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3">
+					<i class="logo"></i>
+				</div>
 
-			<nav>
-				<ul>
-					<li><a href=""><i class="facebook"></i></a></li>
-					<li><a href=""><i class="skype"></i></a></li>
-				</ul>
-			</nav>
-		</address>
+				<div class="col-xs-6 col-xs-offset-3">
+					<address>
+						<a href="mailto:contato@condominioemrede.com.br">contato@condominioemrede.com.br</a><br>
+						Fone: 2533.8963 - 99553.6902<br>
+						<br>
+						Av. Irerê, 2023 - Planalto Paulista<br>
+						São Paulo/SP
+
+						<nav>
+							<ul>
+								<li><a href=""><i class="facebook"></i></a></li>
+								<li><a href=""><i class="skype"></i></a></li>
+							</ul>
+						</nav>
+					</address>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
